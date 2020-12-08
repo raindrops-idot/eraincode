@@ -2,11 +2,13 @@
 # description: The description of your site.
 # email: your-email@address.com
 title: 一叶知秋
-description: 爱代码，更爱生活
 email: 15517526173@163.com
+description: 爱代码，更爱生活
 
 # author: raindrops-idot #  Default is your site title.
 author: 一叶知秋
+baseurl: "/icoder" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # # Your social accounts.
 # social:
