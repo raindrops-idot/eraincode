@@ -7,8 +7,6 @@ description: 爱代码，更爱生活
 
 # author: raindrops-idot #  Default is your site title.
 author: 一叶知秋
-baseurl: "/icoder" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # # Your social accounts.
 # social:
@@ -25,7 +23,7 @@ social:
 
 # # Your site's logo. Will be shown on the left top of your page.
 # logo: /img/logo.svg
-logo: /images/logo.svg
+logo: /icoder/images/logo.svg
 # # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
 # img_prefix: https://your-img-cdn.com
 # # The RSS link of your blog.
