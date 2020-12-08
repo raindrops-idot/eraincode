@@ -6,7 +6,7 @@ description: 爱代码，更爱生活
 email: 15517526173@163.com
 
 # author: raindrops-idot #  Default is your site title.
-author: raindrops-idot
+author: 一叶知秋
 
 # # Your social accounts.
 # social:
@@ -118,7 +118,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-toc
-  #- jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
