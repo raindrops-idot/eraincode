@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-remote-theme"
   gem "jekyll-paginate"
   gem "jekyll-toc"
+  gem "jekyll-img-prefix"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
