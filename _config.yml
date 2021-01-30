@@ -1,143 +1,26 @@
-# title: Your Site Title
-# description: The description of your site.
-# email: your-email@address.com
-title: 一叶知秋
+# Site settings
+name: 小雨点
 email: 15517526173@163.com
-description: 爱代码，更爱生活
+author: 
+url: 
+resume_site: # http://www.hifreud.com/Resume.io/
+github: # https://github.com/luoyan35714/
+baseurl: ""
+description: 勇士都是孤独的,你能忍受吗？
+meta_description: 小雨点;来自上天，归落凡尘
+motto: It's our wits that make us men.
+banner: 勇士都是孤独的,你能忍受吗？
 
-# author: raindrops-idot #  Default is your site title.
-author: 一叶知秋
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-# # Your social accounts.
-# social:
-#   github: github_username
-#   twitter: twitter_username
-#   facebook: facebook_username
-#   instagram: instagram_username
-#   linkedin: linkedin_username
-#   weibo: weibo_username
-social:
-  github: raindrops-idot
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-# # Theme Settings
-
-# # Your site's logo. Will be shown on the left top of your page.
-# logo: /img/logo.svg
-# logo: /logo.svg
-logo: /eraincode/logo.svg
-# # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
-# img_prefix: https://your-img-cdn.com
-# # The RSS link of your blog.
-# rss: "/feed.xml"
-
-# # The followings are settings for displays of your blog.
-# theme_setting:
-theme_setting:
-#   # The slides count in the slides layout. Default is 4.
-#   slides_count: 5
-  slides_count: 5
-#   # The ← back URL on the top of your post page. Default is your site's home page.
-#   blog_page: "blog/index.md"
-  blog_page: "index.md"
-#   # The URL on your name on the bottom of your post and page. Default is your site's home page.
-#   about_page: "about.md"
-  about_page: "about.md"
-#   #  The URL of the menu icon(which has three black lines). Will be shown on the slides/book/chapter layouts It won't be shown if blank.
-#   archive_page: "archive.md"
-  archive_page: "archive.md"
-#   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
-#   nav_pages:
-#     - "about.md"
-#     -
-#       title: "External Link Title"
-#       url: "https://your-external-link.com"
-  nav_pages: 
-    - "index.md"
-    - "about.md"
-    - "archive.md"
-#   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
-#   code: true # Code highlight.
-  code: true
-#   math: true # Mathjax
-  math: true
-#   mermaid: true # Mermaid
-#   #  Locales of this theme.
-#   lang:
-#     category_all: All # The first tag in the categories bar on the blog layout page. By clicking it all of your posts will be shown. Default is 'All'.
-#     blog_title: Blog # The text of ← back url on the top of the post layout.  Default is 'Home'.
-  lang:
-    category_all: 全部
-    blog_title: 主页
-#     # The locales of the comment controls.
-#     comment:
-#       user: "昵称"
-#       email: "邮箱"
-#       url: "链接"
-#       message: "说点什么吧..."
-#       reply: "回复"
-
-# head_code: |
-#   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
-
-# # The settings of comments.
-# comment:
-#   # You should set it to enable comment
-#   enabled: true
-#   # Your comment provider
-#   provider: disqus # static/disqus
-#   # If provider == disqus
-#   disqus:
-#     name: website_name
-#   # Or provider == static
-#   static:
-#     # Your static comment url.
-#     postUrl:  https://api.staticman.net/v2/connect/GITHUB-USERNAME/GITHUB-REPOSITORY
-# # The settings of local smileys used in static comments. The jekyll-smiley plugin is required.
-# smiley:
-#   enabled: true
-#   dir: img/smileys
-
-#jekyll settings
-markdown: kramdown
-permalink: /blog/:title:output_ext
-timezone: Asia/Shanghai
-excerpt_separator: <!--more-->
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      toc: true
-
-
+github_username: luoyan35714
 
 # Build settings
-# theme: jekyll-theme-persephone
-remote_theme: erlzhang/jekyll-theme-persephone
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-toc
-  - jekyll-remote-theme
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+markdown: kramdown
 
+baidu_analysis: # 94be4b0f9fc5d94cc0d0415ea6761ae9
+future: true
