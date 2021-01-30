@@ -5,7 +5,11 @@ author:
 url: 
 resume_site: # http://www.hifreud.com/Resume.io/
 github: # https://github.com/luoyan35714/
+# github使用
 baseurl: "/eraincode"
+# 本地
+# baseurl: ""
+
 description: 勇士都是孤独的,你能忍受吗？
 meta_description: 小雨点;来自上天，归落凡尘
 motto: It's our wits that make us men.
@@ -15,12 +19,12 @@ banner: 勇士都是孤独的,你能忍受吗？
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', '.jekyll-cache']
 
 github_username: luoyan35714
 
 # Build settings
 markdown: kramdown
 
-baidu_analysis: # 94be4b0f9fc5d94cc0d0415ea6761ae9
-future: true
+# baidu_analysis: # 94be4b0f9fc5d94cc0d0415ea6761ae9
+revolvermaps: 56zf3prlddd
