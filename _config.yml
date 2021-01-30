@@ -12,7 +12,7 @@ baseurl: "/eraincode"
 
 description: 勇士都是孤独的,你能忍受吗？
 meta_description: 小雨点;来自上天，归落凡尘
-motto: It's our wits that make us men.
+motto: 竹仗芒鞋轻胜马，谁怕？一蓑烟雨任平生。
 banner: 勇士都是孤独的,你能忍受吗？
 
 #permalink: /:categories/:year/:month/:day/:title/
@@ -21,7 +21,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', '.jekyll-cache']
 
-github_username: luoyan35714
+github_username: raindrops-idot
 
 # Build settings
 markdown: kramdown
